@@ -5,8 +5,8 @@
     $tell = $_GET['Telegram/WhatsApp'];
     $message = "Форма обратной связи<br> Имя: $name<br> Почта: $email<br> Telegram/WhatsApp: $tell"; // Формируем сообщение, отправляемое на почту
     $to = "gptvinccorp@gmail.com, orenlr56@yandex.ru"; // Задаем получателя письма
-    $from = "MANGO"; // От кого пришло письмо
-    $subject = "Письмо с сайта MANGO"; // Задаем тему письма
+    $from = "HAMSTERS"; // От кого пришло письмо
+    $subject = "Письмо с сайта HAMSTERS"; // Задаем тему письма
     $headers = "From: $from\r\nReply-To: $to\r\nContent-type: text/html; charset=utf-8\r\n"; // Формируем заголовок письма (при неправильном формировании может ломаться кодировка и т.д.)
     if (mail($to, $subject, $message, $headers)) { // При помощи функции mail, отправляем сообщение, проверяя отправилось оно или нет
         sleep(3);
