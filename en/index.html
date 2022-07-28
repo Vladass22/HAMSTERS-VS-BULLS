@@ -9,7 +9,7 @@
     <link rel="icon" href="../favicon/favicon.ico">
 	<link rel="icon" type="image/png" href="../favicon/favicon.png">
 	
-	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="../style.css?v=2022072801">
 
 </head>
 <body class="en">
@@ -108,7 +108,7 @@
 			<div class="block-title">Promotional offers</div>
 			<div class="block-3_bl">
 				<div class="block-3_bl_card">
-					<div class="block-3_bl_card_ttl">Full package of integrations</div>
+					<div id="bl3-ttl-1" class="block-3_bl_card_ttl">Full package of integrations</div>
 					<ul>
 						<li>Integration into all series of Russian and English versions</li>
 						<li>Introduction to the animated series of your character</li>
@@ -122,7 +122,7 @@
 					</div>
 				</div>
 				<div class="block-3_bl_card">
-					<div class="block-3_bl_card_ttl">Special series</div>
+					<div id="bl3-ttl-2" class="block-3_bl_card_ttl">Special series</div>
 					<ul>
 						<li>Integration into 1 series of Russian and English versions</li>
 						<li>Introduction to the animated series of your character</li>
@@ -135,14 +135,14 @@
 					</div>
 				</div>
 				<div class="block-3_bl_card">
-					<div class="block-3_bl_card_ttl">Animated logo throughout the series + link in the description</div>
+					<div id="bl3-ttl-3" class="block-3_bl_card_ttl">Animated logo throughout the series + link in the description</div>
 					<div class="block-3_bl_card_price">
 						<a id="intro_btn3">Apply</a>
 						<span>10 000$</span>
 					</div>
 				</div>
 				<div class="block-3_bl_card">
-					<div class="block-3_bl_card_ttl">Title logo at the beginning and end of the episode + link in the description</div>
+					<div id="bl3-ttl-4" class="block-3_bl_card_ttl">Title logo at the beginning and end of the episode + link in the description</div>
 					<div class="block-3_bl_card_price">
 						<a id="intro_btn4">Apply</a>
 						<span>10 000$</span>
@@ -337,6 +337,7 @@
 		<span id="pop_close" class="pop-up_block_close"></span>
 		<div class="pop-up_block_ttl">Become a partner</div>
 		<form action="../mail.php" method="get" onsubmit="return validate()">
+			<input type="text" name="Theme" value="" style="display:none;" id="find">
 			<input type="text" name="Name" minlength="3" placeholder="Your name" required>
 			<input type="text" name="Email" minlength="4" placeholder="Email" required>
 			<input type="text" name="Telegram/WhatsApp" minlength="5" placeholder="Telegram/WhatsApp" required>
@@ -380,7 +381,7 @@
 		</div>
 	</div>
 </footer>
-<script src="../main.js"></script>
+<script src="../main.js?v=2022072801"></script>
 <!-- fancybox-->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="../jquery.fancybox.min.js"></script>
