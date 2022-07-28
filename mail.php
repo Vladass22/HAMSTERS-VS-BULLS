@@ -1,9 +1,10 @@
 <?php
     //Получаем данные из глобальной переменной $_GET, так как мы передаем данные методом GET
+    $theme = $_GET['Theme'];
     $name = $_GET['Name']; // Вытаскиваем имя в переменную
     $email = $_GET['Email']; // Вытаскиваем почту в переменную
     $tell = $_GET['Telegram/WhatsApp'];
-    $message = "Форма обратной связи<br> Имя: $name<br> Почта: $email<br> Telegram/WhatsApp: $tell"; // Формируем сообщение, отправляемое на почту
+    $message = "Форма обратной связи<br> Заявка на: $theme<br> Имя: $name<br> Почта: $email<br> Telegram/WhatsApp: $tell"; // Формируем сообщение, отправляемое на почту
     $to = "gptvinccorp@gmail.com, orenlr56@yandex.ru"; // Задаем получателя письма
     $from = "HAMSTERS"; // От кого пришло письмо
     $subject = "Письмо с сайта HAMSTERS"; // Задаем тему письма
