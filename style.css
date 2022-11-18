@@ -173,7 +173,7 @@ header {
     justify-content: space-between;
 }
 .block-1_down_l {
-    width: 490px;
+    width: 520px;
 }
 .block-1_down_l h1 {
     font-family: 'Bebas Neue';
@@ -395,6 +395,9 @@ header {
     letter-spacing: 0.03em;
     color: #FFD753;
     margin-bottom: 25px;
+}
+.block-3_bl_card_ttl span {
+    color: #fff;
 }
 .block-3_bl_card ul {
     font-weight: 400;
