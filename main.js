@@ -17,6 +17,12 @@
 		var text = $elem.textContent;
 		document.getElementById('find').value = text
 	}
+	document.getElementById('intro_btn33').onclick = function() {
+		document.getElementById('main').classList.add('pop-open');
+		var $elem = document.querySelector('#bl3-ttl-33');
+		var text = $elem.textContent;
+		document.getElementById('find').value = text
+	}
 	document.getElementById('intro_btn4').onclick = function() {
 		document.getElementById('main').classList.add('pop-open');
 		var $elem = document.querySelector('#bl3-ttl-4');
